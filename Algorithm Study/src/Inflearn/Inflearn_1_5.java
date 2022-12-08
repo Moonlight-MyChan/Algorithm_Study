@@ -49,13 +49,13 @@ public class Inflearn_1_5 {
 		}
 
 
-		StringBuilder sb = new StringBuilder();
-		for(int i = 0; i < charArr.length ; i++)
-		{
-			sb.append(charArr[i]);
-		}
+		// StringBuilder sb = new StringBuilder();
+		// for(int i = 0; i < charArr.length ; i++)
+		// {
+		// 	sb.append(charArr[i]);
+		// }
 
-		return sb.toString();
+		return String.valueOf(charArr);
 	}
 
 }
