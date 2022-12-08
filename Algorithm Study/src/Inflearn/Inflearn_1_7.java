@@ -12,25 +12,35 @@ public class Inflearn_1_7 {
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		String inputStr = st.nextToken(); // 배열 입력 개수
 
-		bw.write(Solution(inputStr));
+        if(Solution(inputStr))
+        {
+            bw.write("YES");
+        }
+        else
+        {
+            bw.write("NO");
+        }
+
 		bw.flush();
 		bw.close();
 		br.close();
 	}
 
-	public static String Solution (String str)
+	public static boolean Solution (String str)
 	{
-        StringBuilder sb = new StringBuilder();
-        for(int i = 0; i < str.length(); i ++)
-        {
-            if(str.indexOf(str.charAt(i)) == i)
-            {
-                sb.append(str.charAt(i));
-            }
 
+        int len = str.length();
+        str = str.toUpperCase();
+        
+        for(int i = 0; i < len/2 ; i++)
+        {
+            if(str.charAt(i) != str.charAt(len - 1 -i))
+            {
+                return false;
+            }
         }
 
-        return sb.toString();
+        return true;
 	}
 
 }
