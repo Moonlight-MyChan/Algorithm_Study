@@ -1,0 +1,224 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Inflearn_1_10",
+            "request": "launch",
+            "mainClass": "Inflearn.Inflearn_1_10",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inflearn_1_9",
+            "request": "launch",
+            "mainClass": "Inflearn.Inflearn_1_9",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_10986",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_10986",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_11003",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_11003",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_11004",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_11004",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_11286",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_11286",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_11399",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_11399",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_11659",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_11659",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_11660",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_11660",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_11720",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_11720",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_1253",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_1253",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_12891",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_12891",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_1377",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_1377",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_1427",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_1427",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_1546",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_1546",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_17298",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_17298",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_1874",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_1874",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_1940",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_1940",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_2018",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_2018",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_2164",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_2164",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ_2750",
+            "request": "launch",
+            "mainClass": "BJ_Online.BJ_2750",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch Combination_Sample",
+            "request": "launch",
+            "mainClass": "Combination_Sample",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inflearn_1",
+            "request": "launch",
+            "mainClass": "Inflearn.Inflearn_1",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProTest1",
+            "request": "launch",
+            "mainClass": "ProTest1",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProTest2",
+            "request": "launch",
+            "mainClass": "ProTest2",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProTest3",
+            "request": "launch",
+            "mainClass": "ProTest3",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProTest4",
+            "request": "launch",
+            "mainClass": "ProTest4",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProTest5",
+            "request": "launch",
+            "mainClass": "ProTest5",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProTest6",
+            "request": "launch",
+            "mainClass": "ProTest6",
+            "projectName": "Algorithm Study"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProTest7",
+            "request": "launch",
+            "mainClass": "ProTest7",
+            "projectName": "Algorithm Study"
+        }
+    ]
+}
