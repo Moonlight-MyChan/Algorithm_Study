@@ -3,7 +3,7 @@ package Inflearn;
 import java.util.*;
 import java.io.*;
 
-public class Inflearn_2_7{
+public class Inflearn_2_8{
 
 	public static void main(String[] args) throws IOException 
 	{
@@ -21,26 +21,38 @@ public class Inflearn_2_7{
         }
 
         Solution(arr);
-
 	}
 
 	public static void Solution (int [] arr)
 	{
-        int sum = 0;
-        int count = 0;
+        int answer [] = new int[arr.length];
+
+        // for (int i = 0; i < arr.length; i++)
+        // {
+        //     answer[i] = 1;
+        // }
+
         for (int i = 0; i < arr.length; i++)
         {
-            if(arr[i] == 1)
+            answer[i] = 1;
+            for(int j = 0 ; j < arr.length; j++)
             {
-                count++;
-                sum += count;
+                if(i==j)
+                {
+                    continue;
+                }
+                if(arr[i] < arr[j])
+                {
+                    answer[i]++;
+                }
             }
-            else
-            {
-                count = 0;
-            }
+
         }
-        System.out.println(sum);
+
+        for (int i = 0; i < answer.length; i++)
+        {
+            System.out.print(answer[i] + " ");
+        }
     }
 
 
